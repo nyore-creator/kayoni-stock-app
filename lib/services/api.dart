@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class Api {
   static const String baseUrl =
-      'http://localhost:5000'; // change to deployed URL
+      'https://kayoni-stock-backend.onrender.com'; // change to deployed URL
 
   static Future<void> stockIn(
       String itemName, int quantity, double price) async {
